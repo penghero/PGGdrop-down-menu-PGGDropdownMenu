@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74158F3F1FB8248400679985 /* PGGDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74158F3E1FB8248400679985 /* PGGDropView.m */; };
 		74387E851FB2CEB500E5EE46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74387E841FB2CEB500E5EE46 /* AppDelegate.m */; };
 		74387E881FB2CEB500E5EE46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74387E871FB2CEB500E5EE46 /* ViewController.m */; };
 		74387E8B1FB2CEB500E5EE46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74387E891FB2CEB500E5EE46 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74158F3D1FB8248400679985 /* PGGDropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGDropView.h; sourceTree = "<group>"; };
+		74158F3E1FB8248400679985 /* PGGDropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGDropView.m; sourceTree = "<group>"; };
 		74387E801FB2CEB500E5EE46 /* PGGdrop-down menu PGGDropdownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PGGdrop-down menu PGGDropdownMenu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74387E831FB2CEB500E5EE46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74387E841FB2CEB500E5EE46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				74387E841FB2CEB500E5EE46 /* AppDelegate.m */,
 				74387E861FB2CEB500E5EE46 /* ViewController.h */,
 				74387E871FB2CEB500E5EE46 /* ViewController.m */,
+				74158F3D1FB8248400679985 /* PGGDropView.h */,
+				74158F3E1FB8248400679985 /* PGGDropView.m */,
 				74387E891FB2CEB500E5EE46 /* Main.storyboard */,
 				74387E8C1FB2CEB500E5EE46 /* Assets.xcassets */,
 				74387E8E1FB2CEB500E5EE46 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				74387E881FB2CEB500E5EE46 /* ViewController.m in Sources */,
 				74387E931FB2CEB500E5EE46 /* main.m in Sources */,
+				74158F3F1FB8248400679985 /* PGGDropView.m in Sources */,
 				74387E851FB2CEB500E5EE46 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,7 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MRVYXC2HHB;
+				DEVELOPMENT_TEAM = H5K6RS22WJ;
 				INFOPLIST_FILE = "PGGdrop-down menu PGGDropdownMenu/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.penggege.PGGdrop-down-menu-PGGDropdownMenu";
@@ -445,7 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MRVYXC2HHB;
+				DEVELOPMENT_TEAM = H5K6RS22WJ;
 				INFOPLIST_FILE = "PGGdrop-down menu PGGDropdownMenu/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.penggege.PGGdrop-down-menu-PGGDropdownMenu";
